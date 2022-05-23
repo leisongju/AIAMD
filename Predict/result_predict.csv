@@ -1,0 +1,50 @@
+   ANN, base_num    50, ground energy -11.54978, Predict time      1.1s, GD time   0.0032 mins
+   ANN, base_num   100, ground energy -13.76855, Predict time      1.1s, GD time   0.0042 mins
+   ANN, base_num   200, ground energy -18.87878, Predict time      1.2s, GD time   0.0040 mins
+   ANN, base_num   500, ground energy -24.32348, Predict time      1.8s, GD time   0.0157 mins
+   ANN, base_num  1000, ground energy -27.84043, Predict time      3.1s, GD time   0.1093 mins
+   ANN, base_num  2000, ground energy -29.90076, Predict time      9.3s, GD time   0.1889 mins
+   ANN, base_num  5000, ground energy -31.45626, Predict time     49.6s, GD time   0.5043 mins
+   ANN, base_num 10000, ground energy -32.10815, Predict time    188.6s, GD time   1.2205 mins
+ Brink, base_num    50, ground energy -11.60630, Predict time      0.0s, GD time   0.0040 mins
+ Brink, base_num   100, ground energy -13.80806, Predict time      0.0s, GD time   0.0042 mins
+ Brink, base_num   200, ground energy -18.93060, Predict time      0.0s, GD time   0.0041 mins
+ Brink, base_num   500, ground energy -24.32309, Predict time      0.0s, GD time   0.0138 mins
+ Brink, base_num  1000, ground energy -27.91850, Predict time      0.0s, GD time   0.1372 mins
+ Brink, base_num  2000, ground energy -29.94908, Predict time      0.0s, GD time   0.9935 mins
+ Brink, base_num  5000, ground energy -31.53839, Predict time      0.0s, GD time   7.6627 mins
+ Brink, base_num 10000, ground energy -32.15914, Predict time      0.0s, GD time  11.4128 mins
+
+   ANN, base_num    50, rms_radius  2.61038, Predict time      1.0s
+   ANN, base_num   100, rms_radius  2.53258, Predict time      1.1s
+   ANN, base_num   200, rms_radius  2.43323, Predict time      1.1s
+   ANN, base_num   500, rms_radius  2.40983, Predict time      1.7s
+   ANN, base_num  1000, rms_radius  2.43052, Predict time      3.1s
+   ANN, base_num  2000, rms_radius  2.48036, Predict time      9.1s
+   ANN, base_num  5000, rms_radius  2.55280, Predict time     48.1s
+   ANN, base_num 10000, rms_radius  2.61073, Predict time    187.7s
+ Brink, base_num    50, rms_radius  2.60663, Predict time      0.0s
+ Brink, base_num   100, rms_radius  2.52949, Predict time      0.0s
+ Brink, base_num   200, rms_radius  2.41853, Predict time      0.0s
+ Brink, base_num   500, rms_radius  2.41034, Predict time      0.0s
+ Brink, base_num  1000, rms_radius  2.42277, Predict time      0.0s
+ Brink, base_num  2000, rms_radius  2.47540, Predict time      0.0s
+ Brink, base_num  5000, rms_radius  2.54333, Predict time      0.0s
+ Brink, base_num 10000, rms_radius  2.60039, Predict time      0.0s
+
+   ANN, base_num    50, quadrupole  6.75330, Predict time      1.1s
+   ANN, base_num   100, quadrupole  6.13105, Predict time      1.1s
+   ANN, base_num   200, quadrupole  5.05447, Predict time      1.2s
+   ANN, base_num   500, quadrupole  4.65796, Predict time      1.7s
+   ANN, base_num  1000, quadrupole  4.57185, Predict time      3.2s
+   ANN, base_num  2000, quadrupole  4.69564, Predict time      9.0s
+   ANN, base_num  5000, quadrupole  4.95786, Predict time     48.8s
+   ANN, base_num 10000, quadrupole  5.19947, Predict time    187.3s
+ Brink, base_num    50, quadrupole  6.76462, Predict time      0.0s
+ Brink, base_num   100, quadrupole  6.14474, Predict time      0.0s
+ Brink, base_num   200, quadrupole  5.05588, Predict time      0.0s
+ Brink, base_num   500, quadrupole  4.76007, Predict time      0.0s
+ Brink, base_num  1000, quadrupole  4.57866, Predict time      0.0s
+ Brink, base_num  2000, quadrupole  4.70321, Predict time      0.0s
+ Brink, base_num  5000, quadrupole  4.91937, Predict time      0.0s
+ Brink, base_num 10000, quadrupole  5.15522, Predict time      0.0s

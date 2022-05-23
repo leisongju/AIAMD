@@ -1,0 +1,374 @@
+Sequential(
+  (0): Linear(in_features=6, out_features=54, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=54, out_features=54, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=54, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+DiagonalRobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 0.00393235, test loss 0.00141800, time 18.9 sec
+epoch 2, train loss 0.00095364, test loss 0.00091265, time 19.5 sec
+epoch 3, train loss 0.00076519, test loss 0.00069275, time 19.3 sec
+epoch 4, train loss 0.00068225, test loss 0.00063227, time 19.5 sec
+epoch 5, train loss 0.00063689, test loss 0.00060173, time 19.9 sec
+Sequential(
+  (0): Linear(in_features=6, out_features=54, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=54, out_features=54, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=54, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 0.00393235, test loss 0.00141800, time 20.2 sec
+Sequential(
+  (0): Linear(in_features=18, out_features=252, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=252, out_features=252, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=252, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 1.00856592, test loss 0.78504095, time 51.0 sec
+Sequential(
+  (0): Linear(in_features=6, out_features=54, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=54, out_features=54, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=54, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 0.00393235, test loss 0.00141800, time 19.9 sec
+epoch 2, train loss 0.00095364, test loss 0.00091265, time 19.9 sec
+epoch 3, train loss 0.00076519, test loss 0.00069275, time 20.0 sec
+epoch 4, train loss 0.00068225, test loss 0.00063227, time 19.9 sec
+epoch 5, train loss 0.00063689, test loss 0.00060173, time 19.9 sec
+epoch 6, train loss 0.00060090, test loss 0.00055894, time 19.9 sec
+epoch 7, train loss 0.00056400, test loss 0.00061282, time 19.9 sec
+epoch 8, train loss 0.00053068, test loss 0.00053052, time 20.0 sec
+epoch 9, train loss 0.00050681, test loss 0.00045065, time 20.0 sec
+epoch 10, train loss 0.00049125, test loss 0.00055003, time 20.0 sec
+epoch 11, train loss 0.00047378, test loss 0.00051461, time 19.9 sec
+epoch 12, train loss 0.00046494, test loss 0.00045810, time 20.0 sec
+epoch 13, train loss 0.00045201, test loss 0.00049200, time 20.0 sec
+epoch 14, train loss 0.00044233, test loss 0.00038122, time 19.9 sec
+epoch 15, train loss 0.00043001, test loss 0.00038195, time 20.0 sec
+epoch 16, train loss 0.00041268, test loss 0.00036439, time 19.9 sec
+epoch 17, train loss 0.00040195, test loss 0.00038195, time 20.0 sec
+epoch 18, train loss 0.00038779, test loss 0.00035478, time 20.0 sec
+epoch 19, train loss 0.00037543, test loss 0.00047757, time 19.9 sec
+epoch 20, train loss 0.00036539, test loss 0.00038629, time 20.0 sec
+epoch 21, train loss 0.00035630, test loss 0.00035699, time 20.0 sec
+epoch 22, train loss 0.00034809, test loss 0.00038520, time 20.0 sec
+epoch 23, train loss 0.00033825, test loss 0.00032082, time 20.0 sec
+epoch 24, train loss 0.00033079, test loss 0.00036051, time 19.9 sec
+epoch 25, train loss 0.00032397, test loss 0.00042935, time 20.0 sec
+epoch 26, train loss 0.00031880, test loss 0.00029258, time 20.0 sec
+epoch 27, train loss 0.00031448, test loss 0.00027064, time 20.0 sec
+epoch 28, train loss 0.00031009, test loss 0.00030911, time 20.0 sec
+epoch 29, train loss 0.00030732, test loss 0.00038846, time 19.9 sec
+epoch 30, train loss 0.00030418, test loss 0.00028335, time 20.0 sec
+epoch 31, train loss 0.00029970, test loss 0.00029333, time 20.0 sec
+epoch 32, train loss 0.00029617, test loss 0.00034798, time 19.9 sec
+epoch 33, train loss 0.00029210, test loss 0.00028924, time 20.0 sec
+epoch 34, train loss 0.00029030, test loss 0.00030404, time 19.9 sec
+epoch 35, train loss 0.00028812, test loss 0.00027451, time 20.0 sec
+epoch 36, train loss 0.00028560, test loss 0.00028528, time 20.0 sec
+epoch 37, train loss 0.00028226, test loss 0.00023935, time 20.0 sec
+epoch 38, train loss 0.00027938, test loss 0.00024178, time 20.0 sec
+epoch 39, train loss 0.00027685, test loss 0.00026370, time 20.0 sec
+epoch 40, train loss 0.00027386, test loss 0.00026285, time 20.0 sec
+epoch 41, train loss 0.00027206, test loss 0.00025290, time 20.0 sec
+epoch 42, train loss 0.00026982, test loss 0.00031843, time 20.0 sec
+epoch 43, train loss 0.00026728, test loss 0.00026696, time 20.0 sec
+epoch 44, train loss 0.00026449, test loss 0.00026592, time 20.0 sec
+epoch 45, train loss 0.00026183, test loss 0.00024667, time 20.0 sec
+epoch 46, train loss 0.00025876, test loss 0.00026173, time 20.0 sec
+epoch 47, train loss 0.00025660, test loss 0.00023557, time 19.9 sec
+epoch 48, train loss 0.00025530, test loss 0.00026636, time 20.0 sec
+epoch 49, train loss 0.00025313, test loss 0.00023014, time 20.0 sec
+epoch 50, train loss 0.00025166, test loss 0.00025715, time 19.9 sec
+epoch 51, train loss 0.00025040, test loss 0.00023342, time 20.0 sec
+epoch 52, train loss 0.00024865, test loss 0.00029309, time 20.0 sec
+epoch 53, train loss 0.00024756, test loss 0.00023298, time 20.0 sec
+epoch 54, train loss 0.00024662, test loss 0.00022172, time 20.0 sec
+epoch 55, train loss 0.00024445, test loss 0.00027544, time 20.0 sec
+epoch 56, train loss 0.00024274, test loss 0.00030848, time 20.0 sec
+epoch 57, train loss 0.00024064, test loss 0.00025928, time 20.0 sec
+epoch 58, train loss 0.00023877, test loss 0.00024354, time 20.0 sec
+epoch 59, train loss 0.00023850, test loss 0.00022964, time 20.0 sec
+epoch 60, train loss 0.00023659, test loss 0.00034079, time 20.1 sec
+epoch 61, train loss 0.00023513, test loss 0.00021652, time 20.2 sec
+epoch 62, train loss 0.00023389, test loss 0.00023748, time 20.2 sec
+epoch 63, train loss 0.00023228, test loss 0.00021313, time 20.1 sec
+epoch 64, train loss 0.00023049, test loss 0.00019982, time 20.1 sec
+epoch 65, train loss 0.00022947, test loss 0.00022567, time 20.1 sec
+epoch 66, train loss 0.00022770, test loss 0.00023512, time 20.1 sec
+epoch 67, train loss 0.00022661, test loss 0.00020075, time 20.1 sec
+epoch 68, train loss 0.00022457, test loss 0.00020085, time 20.1 sec
+epoch 69, train loss 0.00022348, test loss 0.00021907, time 20.2 sec
+epoch 70, train loss 0.00022203, test loss 0.00021701, time 20.1 sec
+epoch 71, train loss 0.00022045, test loss 0.00024935, time 20.2 sec
+epoch 72, train loss 0.00021882, test loss 0.00024324, time 20.1 sec
+epoch 73, train loss 0.00021823, test loss 0.00020869, time 20.3 sec
+epoch 74, train loss 0.00021653, test loss 0.00023670, time 20.2 sec
+epoch 75, train loss 0.00021590, test loss 0.00020989, time 20.2 sec
+epoch 76, train loss 0.00021465, test loss 0.00020969, time 20.2 sec
+epoch 77, train loss 0.00021345, test loss 0.00021440, time 20.3 sec
+epoch 78, train loss 0.00021268, test loss 0.00021121, time 20.2 sec
+epoch 79, train loss 0.00021243, test loss 0.00021154, time 20.3 sec
+epoch 80, train loss 0.00021050, test loss 0.00020956, time 20.2 sec
+epoch 81, train loss 0.00020948, test loss 0.00019867, time 20.3 sec
+epoch 82, train loss 0.00020884, test loss 0.00021116, time 20.2 sec
+epoch 83, train loss 0.00020775, test loss 0.00018647, time 20.2 sec
+epoch 84, train loss 0.00020640, test loss 0.00021276, time 20.2 sec
+epoch 85, train loss 0.00020568, test loss 0.00019526, time 20.2 sec
+epoch 86, train loss 0.00020458, test loss 0.00021590, time 20.1 sec
+epoch 87, train loss 0.00020232, test loss 0.00019743, time 20.2 sec
+epoch 88, train loss 0.00020072, test loss 0.00019946, time 20.1 sec
+epoch 89, train loss 0.00019916, test loss 0.00020574, time 20.2 sec
+epoch 90, train loss 0.00019834, test loss 0.00020059, time 20.2 sec
+epoch 91, train loss 0.00019689, test loss 0.00019825, time 20.1 sec
+epoch 92, train loss 0.00019662, test loss 0.00017582, time 20.2 sec
+epoch 93, train loss 0.00019582, test loss 0.00017679, time 20.1 sec
+epoch 94, train loss 0.00019521, test loss 0.00019035, time 20.1 sec
+epoch 95, train loss 0.00019495, test loss 0.00019430, time 20.2 sec
+epoch 96, train loss 0.00019469, test loss 0.00019436, time 20.1 sec
+epoch 97, train loss 0.00019368, test loss 0.00017353, time 20.2 sec
+epoch 98, train loss 0.00019308, test loss 0.00018165, time 20.2 sec
+epoch 99, train loss 0.00019240, test loss 0.00021025, time 20.2 sec
+epoch 100, train loss 0.00019212, test loss 0.00021302, time 20.2 sec
+./Diagonal1/Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001.pt
+Sequential(
+  (0): Linear(in_features=18, out_features=252, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=252, out_features=252, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=252, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 1.00856592, test loss 0.78504095, time 50.0 sec
+epoch 2, train loss 0.62766796, test loss 0.50097306, time 51.2 sec
+epoch 3, train loss 0.43843613, test loss 0.36805698, time 51.2 sec
+epoch 4, train loss 0.33174470, test loss 0.28165131, time 51.1 sec
+epoch 5, train loss 0.25995702, test loss 0.23059203, time 50.9 sec
+epoch 6, train loss 0.20943818, test loss 0.18896505, time 51.1 sec
+epoch 7, train loss 0.17365644, test loss 0.15642555, time 51.0 sec
+epoch 8, train loss 0.14847321, test loss 0.13735341, time 51.2 sec
+epoch 9, train loss 0.13031744, test loss 0.11556866, time 51.2 sec
+epoch 10, train loss 0.11709755, test loss 0.11235508, time 51.2 sec
+epoch 11, train loss 0.10699621, test loss 0.09890141, time 51.2 sec
+epoch 12, train loss 0.09940315, test loss 0.09155162, time 51.2 sec
+epoch 13, train loss 0.09344016, test loss 0.09766581, time 51.2 sec
+epoch 14, train loss 0.08870169, test loss 0.09622883, time 51.2 sec
+epoch 15, train loss 0.08458555, test loss 0.08796301, time 51.1 sec
+epoch 16, train loss 0.08092237, test loss 0.07858909, time 51.2 sec
+epoch 17, train loss 0.07796041, test loss 0.07997640, time 51.2 sec
+epoch 18, train loss 0.07519294, test loss 0.07227020, time 51.2 sec
+epoch 19, train loss 0.07316476, test loss 0.06762124, time 51.1 sec
+epoch 20, train loss 0.07111783, test loss 0.07574426, time 51.2 sec
+epoch 21, train loss 0.06933688, test loss 0.07965625, time 51.2 sec
+epoch 22, train loss 0.06760234, test loss 0.06737224, time 51.2 sec
+epoch 23, train loss 0.06583540, test loss 0.06409978, time 51.1 sec
+epoch 24, train loss 0.06477470, test loss 0.06499842, time 51.2 sec
+epoch 25, train loss 0.06331859, test loss 0.06725145, time 51.5 sec
+epoch 26, train loss 0.06202852, test loss 0.07000780, time 51.4 sec
+epoch 27, train loss 0.06115279, test loss 0.06612371, time 51.4 sec
+epoch 28, train loss 0.06008276, test loss 0.06211001, time 51.5 sec
+epoch 29, train loss 0.05901227, test loss 0.06183306, time 51.6 sec
+epoch 30, train loss 0.05821058, test loss 0.05629412, time 51.4 sec
+epoch 31, train loss 0.05735066, test loss 0.06344317, time 51.6 sec
+epoch 32, train loss 0.05672377, test loss 0.05779972, time 51.7 sec
+epoch 33, train loss 0.05582648, test loss 0.06407906, time 51.6 sec
+epoch 34, train loss 0.05508946, test loss 0.05665885, time 51.5 sec
+epoch 35, train loss 0.05459382, test loss 0.06193334, time 51.5 sec
+epoch 36, train loss 0.05399548, test loss 0.05522668, time 51.6 sec
+epoch 37, train loss 0.05359181, test loss 0.05425594, time 51.6 sec
+epoch 38, train loss 0.05304002, test loss 0.06151289, time 51.4 sec
+epoch 39, train loss 0.05224433, test loss 0.05212615, time 51.5 sec
+epoch 40, train loss 0.05183507, test loss 0.06172763, time 51.2 sec
+epoch 41, train loss 0.05128282, test loss 0.05184414, time 48.2 sec
+epoch 42, train loss 0.05091581, test loss 0.05193844, time 48.3 sec
+epoch 43, train loss 0.05027666, test loss 0.05602535, time 48.2 sec
+epoch 44, train loss 0.05022678, test loss 0.05374113, time 48.7 sec
+epoch 45, train loss 0.04967686, test loss 0.04922831, time 49.1 sec
+epoch 46, train loss 0.04921982, test loss 0.05412096, time 50.9 sec
+epoch 47, train loss 0.04879272, test loss 0.05085450, time 51.0 sec
+epoch 48, train loss 0.04852708, test loss 0.05408826, time 48.0 sec
+epoch 49, train loss 0.04814487, test loss 0.04742502, time 48.0 sec
+epoch 50, train loss 0.04776836, test loss 0.04756591, time 48.0 sec
+epoch 51, train loss 0.04754638, test loss 0.04920270, time 48.0 sec
+epoch 52, train loss 0.04716999, test loss 0.06234881, time 48.0 sec
+epoch 53, train loss 0.04687808, test loss 0.04964513, time 48.0 sec
+epoch 54, train loss 0.04631177, test loss 0.04982633, time 48.0 sec
+epoch 55, train loss 0.04617473, test loss 0.04727123, time 48.0 sec
+epoch 56, train loss 0.04560005, test loss 0.04399655, time 48.0 sec
+epoch 57, train loss 0.04561207, test loss 0.04460215, time 48.0 sec
+epoch 58, train loss 0.04519995, test loss 0.04419927, time 48.0 sec
+epoch 59, train loss 0.04505692, test loss 0.05213991, time 48.0 sec
+epoch 60, train loss 0.04468342, test loss 0.04801369, time 48.1 sec
+epoch 61, train loss 0.04443527, test loss 0.04875324, time 48.0 sec
+epoch 62, train loss 0.04430121, test loss 0.04859645, time 48.1 sec
+epoch 63, train loss 0.04409150, test loss 0.04268838, time 48.1 sec
+epoch 64, train loss 0.04371165, test loss 0.06978848, time 48.1 sec
+epoch 65, train loss 0.04367148, test loss 0.04461732, time 48.0 sec
+epoch 66, train loss 0.04338299, test loss 0.04670102, time 48.1 sec
+epoch 67, train loss 0.04303565, test loss 0.04394907, time 48.0 sec
+epoch 68, train loss 0.04297613, test loss 0.04897843, time 48.1 sec
+epoch 69, train loss 0.04264302, test loss 0.04089520, time 48.0 sec
+epoch 70, train loss 0.04257644, test loss 0.04378611, time 48.3 sec
+epoch 71, train loss 0.04214715, test loss 0.04214423, time 48.6 sec
+epoch 72, train loss 0.04226300, test loss 0.04089271, time 48.8 sec
+epoch 73, train loss 0.04213436, test loss 0.04607094, time 48.5 sec
+epoch 74, train loss 0.04190463, test loss 0.04192719, time 48.3 sec
+epoch 75, train loss 0.04162116, test loss 0.03869954, time 48.1 sec
+epoch 76, train loss 0.04142596, test loss 0.04318877, time 48.1 sec
+epoch 77, train loss 0.04123346, test loss 0.03751518, time 48.0 sec
+epoch 78, train loss 0.04079823, test loss 0.04522080, time 48.0 sec
+epoch 79, train loss 0.04096515, test loss 0.03898509, time 48.1 sec
+epoch 80, train loss 0.04073909, test loss 0.03860732, time 48.1 sec
+epoch 81, train loss 0.04047438, test loss 0.03998086, time 48.4 sec
+epoch 82, train loss 0.04038453, test loss 0.04609953, time 48.4 sec
+epoch 83, train loss 0.04035737, test loss 0.04248170, time 48.5 sec
+epoch 84, train loss 0.04019826, test loss 0.04830297, time 48.6 sec
+epoch 85, train loss 0.03986714, test loss 0.03974661, time 48.8 sec
+epoch 86, train loss 0.03978662, test loss 0.03864485, time 48.9 sec
+epoch 87, train loss 0.03962893, test loss 0.04186257, time 51.7 sec
+epoch 88, train loss 0.03950263, test loss 0.04142740, time 53.1 sec
+epoch 89, train loss 0.03938986, test loss 0.04713138, time 52.4 sec
+epoch 90, train loss 0.03930103, test loss 0.03728952, time 52.5 sec
+epoch 91, train loss 0.03901935, test loss 0.04026969, time 52.5 sec
+epoch 92, train loss 0.03881678, test loss 0.04602966, time 52.6 sec
+epoch 93, train loss 0.03880803, test loss 0.03779425, time 53.2 sec
+epoch 94, train loss 0.03866052, test loss 0.04127324, time 53.6 sec
+epoch 95, train loss 0.03855092, test loss 0.04139253, time 49.1 sec
+epoch 96, train loss 0.03850516, test loss 0.04161130, time 48.1 sec
+epoch 97, train loss 0.03835693, test loss 0.04566592, time 48.0 sec
+epoch 98, train loss 0.03807876, test loss 0.03905919, time 48.0 sec
+epoch 99, train loss 0.03789207, test loss 0.04310187, time 48.1 sec
+epoch 100, train loss 0.03782235, test loss 0.03945170, time 48.1 sec
+./off-Diagonal1/off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001.pt
+Sequential(
+  (0): Linear(in_features=18, out_features=252, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=252, out_features=252, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=252, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 1.00963069, test loss 0.77938296, time 50.8 sec
+epoch 2, train loss 0.62320143, test loss 0.50545412, time 48.4 sec
+epoch 3, train loss 0.43911450, test loss 0.37384988, time 48.9 sec
+epoch 4, train loss 0.33782399, test loss 0.29739072, time 49.8 sec
+epoch 5, train loss 0.26511794, test loss 0.23328411, time 50.2 sec
+epoch 6, train loss 0.20986232, test loss 0.18864392, time 48.9 sec
+epoch 7, train loss 0.17191989, test loss 0.15180981, time 50.4 sec
+epoch 8, train loss 0.14623340, test loss 0.13620791, time 50.0 sec
+epoch 9, train loss 0.12782383, test loss 0.12280949, time 51.2 sec
+epoch 10, train loss 0.11464989, test loss 0.10535926, time 49.7 sec
+epoch 11, train loss 0.10454240, test loss 0.09772378, time 51.7 sec
+epoch 12, train loss 0.09691921, test loss 0.09255235, time 52.2 sec
+epoch 13, train loss 0.09118179, test loss 0.08714372, time 50.9 sec
+epoch 14, train loss 0.08605747, test loss 0.08673332, time 52.0 sec
+epoch 15, train loss 0.08201035, test loss 0.09397535, time 50.1 sec
+epoch 16, train loss 0.07853364, test loss 0.07863949, time 50.8 sec
+epoch 17, train loss 0.07546569, test loss 0.08245955, time 49.7 sec
+epoch 18, train loss 0.07278652, test loss 0.08760642, time 48.8 sec
+epoch 19, train loss 0.07057629, test loss 0.06824463, time 48.7 sec
+epoch 20, train loss 0.06846756, test loss 0.07276987, time 48.8 sec
+epoch 21, train loss 0.06706373, test loss 0.06619543, time 48.7 sec
+epoch 22, train loss 0.06529066, test loss 0.07000537, time 48.8 sec
+epoch 23, train loss 0.06365765, test loss 0.07227344, time 48.7 sec
+epoch 24, train loss 0.06237195, test loss 0.06106727, time 48.8 sec
+epoch 25, train loss 0.06102253, test loss 0.08910451, time 48.7 sec
+epoch 26, train loss 0.06009965, test loss 0.06433700, time 48.7 sec
+epoch 27, train loss 0.05899402, test loss 0.06675684, time 48.7 sec
+epoch 28, train loss 0.05826142, test loss 0.05767025, time 48.7 sec
+epoch 29, train loss 0.05718332, test loss 0.05920082, time 48.7 sec
+epoch 30, train loss 0.05618051, test loss 0.05701656, time 48.7 sec
+epoch 31, train loss 0.05552942, test loss 0.05581116, time 48.7 sec
+epoch 32, train loss 0.05499271, test loss 0.05290945, time 48.7 sec
+epoch 33, train loss 0.05416854, test loss 0.05157265, time 48.7 sec
+epoch 34, train loss 0.05350590, test loss 0.05406302, time 48.8 sec
+epoch 35, train loss 0.05282721, test loss 0.05080702, time 48.7 sec
+epoch 36, train loss 0.05239795, test loss 0.05382316, time 48.7 sec
+epoch 37, train loss 0.05163481, test loss 0.05334146, time 48.7 sec
+epoch 38, train loss 0.05157168, test loss 0.05116216, time 48.7 sec
+epoch 39, train loss 0.05081884, test loss 0.05369501, time 48.7 sec
+epoch 40, train loss 0.05029629, test loss 0.04890245, time 48.7 sec
+epoch 41, train loss 0.04989842, test loss 0.04892145, time 48.7 sec
+epoch 42, train loss 0.04931793, test loss 0.04723946, time 54.3 sec
+epoch 43, train loss 0.04891914, test loss 0.04540515, time 57.3 sec
+epoch 44, train loss 0.04872819, test loss 0.05356302, time 58.8 sec
+epoch 45, train loss 0.04823293, test loss 0.04860320, time 58.2 sec
+epoch 46, train loss 0.04780590, test loss 0.04647702, time 58.8 sec
+epoch 47, train loss 0.04750574, test loss 0.05076224, time 56.8 sec
+epoch 48, train loss 0.04724998, test loss 0.04371160, time 55.4 sec
+epoch 49, train loss 0.04701951, test loss 0.04883379, time 55.6 sec
+epoch 50, train loss 0.04645893, test loss 0.04429850, time 55.7 sec
+epoch 51, train loss 0.04611399, test loss 0.04642456, time 55.3 sec
+epoch 52, train loss 0.04568534, test loss 0.04616465, time 54.7 sec
+epoch 53, train loss 0.04572145, test loss 0.04390449, time 54.5 sec
+epoch 54, train loss 0.04515651, test loss 0.04416194, time 54.6 sec
+epoch 55, train loss 0.04493225, test loss 0.04300947, time 54.4 sec
+epoch 56, train loss 0.04467569, test loss 0.04545555, time 53.0 sec
+epoch 57, train loss 0.04440432, test loss 0.04724538, time 49.2 sec
+epoch 58, train loss 0.04403900, test loss 0.04390934, time 49.2 sec
+epoch 59, train loss 0.04407504, test loss 0.04946701, time 49.1 sec
+epoch 60, train loss 0.04359542, test loss 0.04064771, time 49.1 sec
+epoch 61, train loss 0.04336442, test loss 0.04450909, time 49.0 sec
+epoch 62, train loss 0.04296012, test loss 0.06295951, time 49.0 sec
+epoch 63, train loss 0.04296250, test loss 0.04321691, time 49.1 sec
+epoch 64, train loss 0.04288248, test loss 0.04153279, time 49.5 sec
+epoch 65, train loss 0.04238679, test loss 0.04241430, time 50.8 sec
+epoch 66, train loss 0.04234581, test loss 0.04969012, time 51.0 sec
+epoch 67, train loss 0.04201992, test loss 0.04327158, time 52.6 sec
+epoch 68, train loss 0.04185222, test loss 0.04344586, time 52.8 sec
+epoch 69, train loss 0.04160938, test loss 0.04518060, time 52.9 sec
+epoch 70, train loss 0.04147586, test loss 0.04378647, time 53.3 sec
+epoch 71, train loss 0.04108396, test loss 0.04507343, time 53.7 sec
+epoch 72, train loss 0.04108024, test loss 0.03983493, time 53.9 sec
+epoch 73, train loss 0.04098864, test loss 0.04148749, time 53.9 sec
+epoch 74, train loss 0.04063988, test loss 0.04088808, time 54.0 sec
+epoch 75, train loss 0.04051900, test loss 0.04340898, time 54.2 sec
+epoch 76, train loss 0.04050567, test loss 0.04050536, time 54.9 sec
+epoch 77, train loss 0.04019946, test loss 0.03719761, time 55.1 sec
+epoch 78, train loss 0.04011374, test loss 0.03998778, time 55.5 sec
+epoch 79, train loss 0.04000477, test loss 0.04136052, time 55.7 sec
+epoch 80, train loss 0.03976077, test loss 0.05252572, time 55.7 sec
+epoch 81, train loss 0.03971839, test loss 0.04115600, time 57.7 sec
+epoch 82, train loss 0.03929345, test loss 0.04285677, time 58.2 sec
+epoch 83, train loss 0.03959337, test loss 0.04631684, time 58.0 sec
+epoch 84, train loss 0.03909578, test loss 0.04240363, time 52.0 sec
+epoch 85, train loss 0.03908500, test loss 0.03770226, time 47.9 sec
+epoch 86, train loss 0.03915836, test loss 0.03930724, time 47.8 sec
+epoch 87, train loss 0.03874758, test loss 0.04311846, time 47.8 sec
+epoch 88, train loss 0.03878286, test loss 0.03647967, time 47.8 sec
+epoch 89, train loss 0.03838738, test loss 0.04383604, time 47.8 sec
+epoch 90, train loss 0.03848859, test loss 0.03908649, time 47.8 sec
+epoch 91, train loss 0.03827762, test loss 0.03643083, time 47.8 sec
+epoch 92, train loss 0.03809818, test loss 0.03694468, time 47.8 sec
+epoch 93, train loss 0.03805507, test loss 0.04583701, time 47.8 sec
+epoch 94, train loss 0.03798264, test loss 0.03634696, time 47.8 sec
+epoch 95, train loss 0.03777975, test loss 0.03715530, time 47.8 sec
+epoch 96, train loss 0.03779686, test loss 0.04230740, time 47.8 sec
+epoch 97, train loss 0.03771682, test loss 0.03881513, time 47.8 sec
+epoch 98, train loss 0.03770541, test loss 0.03530543, time 47.8 sec
+epoch 99, train loss 0.03746046, test loss 0.04174187, time 47.7 sec
+epoch 100, train loss 0.03738018, test loss 0.03577800, time 47.8 sec
+./off-Diagonal2/off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001.pt
+Sequential(
+  (0): Linear(in_features=18, out_features=252, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=252, out_features=252, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=252, out_features=2, bias=True)
+)
+lr =   0.00010000, weight_decay =   0.00010000
+off-Diagonal_RobustScaler_epoch_100_batchsize_32_L1Loss()_lr_0.0001_weightdecay_0.0001
+epoch 1, train loss 1.00963069, test loss 0.77938296, time 50.9 sec

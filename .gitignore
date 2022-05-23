@@ -1,0 +1,14 @@
+test_Diagonal.csv
+test_off-Diagonal.csv
+train_Diagonal.csv
+train_off-Diagonal.csv
+base_num_10000_ANN_predict_kernel_norm.csv
+base_num_5000_ANN_predict_kernel_norm.csv
+base_num_2000_ANN_predict_kernel_norm.csv
+base_num_1000_ANN_predict_kernel_norm.csv
+base_num_500_ANN_predict_kernel_norm.csv
+base_num_200_ANN_predict_kernel_norm.csv
+base_num_100_ANN_predict_kernel_norm.csv
+Brink_matrix_ground_energy.csv
+Brink_matrix_quadrupole.csv
+Brink_matrix_rms_radius.csv
