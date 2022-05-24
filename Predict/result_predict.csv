@@ -15,36 +15,9 @@
  Brink, base_num  5000, ground energy -31.53839, Predict time      0.0s, GD time   7.6627 mins
  Brink, base_num 10000, ground energy -32.15914, Predict time      0.0s, GD time  11.4128 mins
 
-   ANN, base_num    50, rms_radius  2.61038, Predict time      1.0s
-   ANN, base_num   100, rms_radius  2.53258, Predict time      1.1s
-   ANN, base_num   200, rms_radius  2.43323, Predict time      1.1s
-   ANN, base_num   500, rms_radius  2.40983, Predict time      1.7s
-   ANN, base_num  1000, rms_radius  2.43052, Predict time      3.1s
-   ANN, base_num  2000, rms_radius  2.48036, Predict time      9.1s
-   ANN, base_num  5000, rms_radius  2.55280, Predict time     48.1s
+
    ANN, base_num 10000, rms_radius  2.61073, Predict time    187.7s
- Brink, base_num    50, rms_radius  2.60663, Predict time      0.0s
- Brink, base_num   100, rms_radius  2.52949, Predict time      0.0s
- Brink, base_num   200, rms_radius  2.41853, Predict time      0.0s
- Brink, base_num   500, rms_radius  2.41034, Predict time      0.0s
- Brink, base_num  1000, rms_radius  2.42277, Predict time      0.0s
- Brink, base_num  2000, rms_radius  2.47540, Predict time      0.0s
- Brink, base_num  5000, rms_radius  2.54333, Predict time      0.0s
  Brink, base_num 10000, rms_radius  2.60039, Predict time      0.0s
 
-   ANN, base_num    50, quadrupole  6.75330, Predict time      1.1s
-   ANN, base_num   100, quadrupole  6.13105, Predict time      1.1s
-   ANN, base_num   200, quadrupole  5.05447, Predict time      1.2s
-   ANN, base_num   500, quadrupole  4.65796, Predict time      1.7s
-   ANN, base_num  1000, quadrupole  4.57185, Predict time      3.2s
-   ANN, base_num  2000, quadrupole  4.69564, Predict time      9.0s
-   ANN, base_num  5000, quadrupole  4.95786, Predict time     48.8s
    ANN, base_num 10000, quadrupole  5.19947, Predict time    187.3s
- Brink, base_num    50, quadrupole  6.76462, Predict time      0.0s
- Brink, base_num   100, quadrupole  6.14474, Predict time      0.0s
- Brink, base_num   200, quadrupole  5.05588, Predict time      0.0s
- Brink, base_num   500, quadrupole  4.76007, Predict time      0.0s
- Brink, base_num  1000, quadrupole  4.57866, Predict time      0.0s
- Brink, base_num  2000, quadrupole  4.70321, Predict time      0.0s
- Brink, base_num  5000, quadrupole  4.91937, Predict time      0.0s
  Brink, base_num 10000, quadrupole  5.15522, Predict time      0.0s
