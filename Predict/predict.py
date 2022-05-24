@@ -21,7 +21,7 @@ if __name__ == '__main__':
     
     start = time.time()
 
-    operator = "quadrupole"    # ground_energy,rms_radius,quadrupole
+    operator = "ground_energy"    # ground_energy,rms_radius,quadrupole
 
     style = 'ANN'   # ANN,Brink
     if style == 'Brink':
