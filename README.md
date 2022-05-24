@@ -7,5 +7,8 @@ This repository is the code repository for the neural network part of the paper 
  * numpy >= 1.20.3
  * scikit-learn >= 0.24.2
 # Configuration and Running
-The training data needs to be obtained by solving the matrix determinant using traditional algorithms, and this part of the code is not public. You can refer to 《Generator Coordinate Treatment of Composite Particle Reaction and Molecule-like Structures》.
-There are already two trained model files in the repository. The model file in the single folder is used to predict the diagonal terms of the 8B nuclear Hamiltonian matrix, and the model file in the cross folder is used to predict the off-diagonal terms of the 8B nuclear Hamiltonian.
+There are already two trained model files in the repository. The model file in the Diagonal folder is used to predict the diagonal terms of the 8B nuclear Hamiltonian matrix and norm kernel, and the model file in the off-Diagonal folder is used to predict the off-diagonal terms of the 8B nuclear Hamiltonian matrix and norm kernel. 
+# Training data and traditional method result data
+This repository does not contain training data and the matrix data of traditional method. These data can be downloaded through [Google drive] [1]
+[1]:https://drive.google.com/drive/folders/1JKph8_FZGWLW318V_aA6vol9fOeaPnis?usp=sharing.
+
