@@ -165,7 +165,6 @@ def use_svg_display():
     display.set_matplotlib_formats('svg')
 def set_figsize(figsize=(3.5, 2.5)):
     use_svg_display()
-    # 设置图的尺寸
     plt.rcParams['figure.figsize'] = figsize
 
 def train(model,train_iter_def, test_iter_def, loss_function, optimizer, epochs, loss, num_output):
