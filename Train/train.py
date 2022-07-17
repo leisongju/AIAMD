@@ -57,22 +57,22 @@ num_epochs = 100
 data_num = 100
 
 outname = ''
-output_style = 'off-Diagonal'    # Diagonal  or  off-Diagonal
+output_style = 'off-Diagonal'    # Diagonal  or  off-Diagonal. Train diagonal term network or off-diagonal term network.
 batch_size = 32
 lr = 0.0001
 weight_decay = 0.0001
 
 loss = nn.L1Loss()
 
-# StandardScaler  RobustScaler  exp  e10
+# StandardScaler  RobustScaler  exp  e10. Training data preprocessing, experiments show that the effect of 'RobustScaler' is the best.
 data_preprocessing_name = 'RobustScaler'
 
 
 
 
 
-
-if output_style == 'Diagonal':
+# Network structure.
+if output_style == 'Diagonal': 
     num_input = 6
     layer1 = 54
     layer2 = 54

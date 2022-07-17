@@ -21,9 +21,11 @@ if __name__ == '__main__':
     
     start = time.time()
 
-    operator = "ground_energy"    # ground_energy,rms_radius,quadrupole
+    operator = "ground_energy"    # ground_energy, rms_radius or quadrupole. This option represents the calculation of the corresponding physical quantity.
 
-    style = 'ANN'   # ANN,Brink
+    style = 'ANN'   # ANN or Brink. 'Ann' represents the matrix element predicted by neural network to calculate the corresponding physical quantity. 'Brink' represents the use of accurate matrix elements to calculate the corresponding physical quantities
+
+
     if style == 'Brink':
         Kernel, norm = func.read_kernel_norm_from_Brink_matrix(base_num,operator)
         predicttime = 0
@@ -39,7 +41,7 @@ if __name__ == '__main__':
             norm = func.getANNnorm_numba(base_num)
         
 
-    if operator == 'ground_energy':
+    if operator == 'ground_energy':  #Gradient descent(GD) is required only when calculating the ground state energy.
         # begin GD
         random.seed(1)
         lr = 1
@@ -99,12 +101,12 @@ if __name__ == '__main__':
         item = '%6s, base_num %5d, ground energy %8.5f, Predict time %8.1fs, GD time %8.4f mins'%(style,base_num,energy,predicttime,(GD_end-GD_start)/60)
     elif operator == 'rms_radius':
         c = func.getcfromfile(base_num,style)
-        energy,energykernel,normkernel = func.energy(Kernel,norm,base_num,c)
-        item = '%6s, base_num %5d, rms_radius %8.5f, Predict time %8.1fs'%(style,base_num,math.sqrt(energy/8-3*1.35*1.35/16),predicttime)
+        rms_radius,energykernel,normkernel = func.energy(Kernel,norm,base_num,c) # calculate the rms radius
+        item = '%6s, base_num %5d, rms_radius %8.5f, Predict time %8.1fs'%(style,base_num,math.sqrt(rms_radius/8-3*1.35*1.35/16),predicttime)
     elif operator == 'quadrupole':
         c = func.getcfromfile(base_num,style)
-        energy,energykernel,normkernel = func.energy(Kernel,norm,base_num,c)
-        item = '%6s, base_num %5d, quadrupole %8.5f, Predict time %8.1fs'%(style,base_num,energy,predicttime)
+        quadrupole,energykernel,normkernel = func.energy(Kernel,norm,base_num,c) # calculate the quadrupole
+        item = '%6s, base_num %5d, quadrupole %8.5f, Predict time %8.1fs'%(style,base_num,quadrupole,predicttime)
 
     result_predict.write(item)
 

@@ -63,7 +63,7 @@ def write_KernelfromANN(Kernel,norm,base_num):
                 f.write(str(norm[i,j]))
                 f.write('\n')
 
-@jit(nopython=True)
+@jit(nopython=True) #Calculate the energy (or other physical quantity) according to the corresponding matrix element
 def energy(Kernel,norm,base_num,c):
     energykernel = 0.0
     normkernel = 0.0
@@ -79,7 +79,7 @@ def energy(Kernel,norm,base_num,c):
     return energy,energykernel,normkernel
 
 
-@jit(nopython=True)
+@jit(nopython=True) # Find a gradient for a given coefficient
 def grad_energy_ground(Kernel,norm,energykernel,normkernel,base_num,c,k):
     delatc = 0.00001
     Dkernel, Dnorm = 0.0, 0.0
@@ -91,7 +91,7 @@ def grad_energy_ground(Kernel,norm,energykernel,normkernel,base_num,c,k):
 
 
 
-def LearningRateScheduler(epochs, lr, gradsum, base_num, errorgrad):
+def LearningRateScheduler(epochs, lr, gradsum, base_num, errorgrad):  #Adjust learning rate
     lr1 = abs(math.log10(abs(errorgrad)))
     lr1 = 1
     lr2_1 = gradsum * 10
@@ -137,7 +137,7 @@ def LearningRateScheduler(epochs, lr, gradsum, base_num, errorgrad):
     lr = max(lr1,lr2)
     return lr
 
-def write_coefficient(step,base_num,c,energy,style):
+def write_coefficient(step,base_num,c,energy,style):  #Write the obtained wave function coefficients into the file
     name = './'+str(base_num) + '/base_num_' + str(base_num) +'_'+style+'_quan.csv'
     fquan=open(name,'a')
     if step % 100 == 0:
@@ -268,7 +268,8 @@ def ann_predict_off_Diagonal(data_process_off_Diagonal,net_off_Diagonal,base_off
 def ann_predict_off_Diagonal_operator(data_process_off_Diagonal,net_off_Diagonal,base_off_Diagonal):
     output_off_Diagonal = data_process_off_Diagonal.inverse_transform(net_off_Diagonal(base_off_Diagonal).cpu().detach().numpy().reshape(-1,1))
     return output_off_Diagonal
-def kernel_norm_ri_rj_exp(base_num,batch_size,operator=str):
+
+def kernel_norm_ri_rj_exp(base_num,batch_size,operator=str):  #Prediction of wave function matrix elements using neural networks
     if operator == 'ground_energy':
         output = 2
     elif operator == 'rms_radius':
